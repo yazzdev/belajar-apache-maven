@@ -15,7 +15,10 @@
         <dependency>
             <groupId>dyaz-io</groupId>
             <artifactId>belajar-apache-maven-data</artifactId>
-            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
         </dependency>
     </dependencies>
 </project>
