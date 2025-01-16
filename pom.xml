@@ -6,10 +6,16 @@
   <groupId>dyaz-io</groupId>
   <artifactId>belajar-apache-maven</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>belajar-apache-maven</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+  <modules>
+    <module>belajar-apache-maven-app</module>
+    <module>belajar-apache-maven-data</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
